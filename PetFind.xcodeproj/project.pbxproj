@@ -9,11 +9,28 @@
 /* Begin PBXBuildFile section */
 		65725F231B1F5247008416F5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 65725F221B1F5247008416F5 /* main.m */; };
 		65725F261B1F5247008416F5 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 65725F251B1F5247008416F5 /* AppDelegate.m */; };
-		65725F291B1F5247008416F5 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 65725F281B1F5247008416F5 /* ViewController.m */; };
 		65725F2C1B1F5247008416F5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 65725F2A1B1F5247008416F5 /* Main.storyboard */; };
 		65725F2E1B1F5247008416F5 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 65725F2D1B1F5247008416F5 /* Images.xcassets */; };
 		65725F311B1F5247008416F5 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 65725F2F1B1F5247008416F5 /* LaunchScreen.xib */; };
 		65725F3D1B1F5247008416F5 /* PetFindTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 65725F3C1B1F5247008416F5 /* PetFindTests.m */; };
+		65725F481B1F5649008416F5 /* MasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 65725F471B1F5649008416F5 /* MasterViewController.m */; };
+		65725F4B1B1F5784008416F5 /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 65725F4A1B1F5784008416F5 /* DetailViewController.m */; };
+		65725F4F1B1F57FD008416F5 /* AboutController.m in Sources */ = {isa = PBXBuildFile; fileRef = 65725F4E1B1F57FD008416F5 /* AboutController.m */; };
+		65725F521B1F5CE9008416F5 /* Pet.m in Sources */ = {isa = PBXBuildFile; fileRef = 65725F511B1F5CE9008416F5 /* Pet.m */; };
+		65725F621B1FDC92008416F5 /* CuteKitten.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 65725F5C1B1FDC92008416F5 /* CuteKitten.jpg */; };
+		65725F631B1FDC92008416F5 /* DancingCat.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 65725F5D1B1FDC92008416F5 /* DancingCat.jpg */; };
+		65725F641B1FDC92008416F5 /* FluffyKitten.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 65725F5E1B1FDC92008416F5 /* FluffyKitten.jpg */; };
+		65725F651B1FDC92008416F5 /* KittensInABasket.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 65725F5F1B1FDC92008416F5 /* KittensInABasket.jpg */; };
+		65725F661B1FDC92008416F5 /* RelaxedCat.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 65725F601B1FDC92008416F5 /* RelaxedCat.jpg */; };
+		65725F671B1FDC92008416F5 /* VeryYoungKitten.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 65725F611B1FDC92008416F5 /* VeryYoungKitten.jpg */; };
+		65725F6C1B1FDD10008416F5 /* Bo.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 65725F681B1FDD10008416F5 /* Bo.jpg */; };
+		65725F6D1B1FDD10008416F5 /* BorderCollie.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 65725F691B1FDD10008416F5 /* BorderCollie.jpg */; };
+		65725F6E1B1FDD10008416F5 /* ItalianGreyhound.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 65725F6A1B1FDD10008416F5 /* ItalianGreyhound.jpg */; };
+		65725F6F1B1FDD10008416F5 /* JRT.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 65725F6B1B1FDD10008416F5 /* JRT.jpg */; };
+		65725F711B1FE10C008416F5 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 65725F701B1FE10C008416F5 /* CoreData.framework */; };
+		65725F731B1FE11C008416F5 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 65725F721B1FE11C008416F5 /* UIKit.framework */; };
+		65725F751B1FE12F008416F5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 65725F741B1FE12F008416F5 /* Foundation.framework */; };
+		65725F771B1FE13C008416F5 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 65725F761B1FE13C008416F5 /* CoreGraphics.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -32,14 +49,34 @@
 		65725F221B1F5247008416F5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		65725F241B1F5247008416F5 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		65725F251B1F5247008416F5 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		65725F271B1F5247008416F5 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		65725F281B1F5247008416F5 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		65725F2B1B1F5247008416F5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		65725F2D1B1F5247008416F5 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		65725F301B1F5247008416F5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		65725F361B1F5247008416F5 /* PetFindTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PetFindTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		65725F3B1B1F5247008416F5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		65725F3C1B1F5247008416F5 /* PetFindTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PetFindTests.m; sourceTree = "<group>"; };
+		65725F461B1F5649008416F5 /* MasterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MasterViewController.h; sourceTree = "<group>"; };
+		65725F471B1F5649008416F5 /* MasterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MasterViewController.m; sourceTree = "<group>"; };
+		65725F491B1F5784008416F5 /* DetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
+		65725F4A1B1F5784008416F5 /* DetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
+		65725F4D1B1F57FD008416F5 /* AboutController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AboutController.h; sourceTree = "<group>"; };
+		65725F4E1B1F57FD008416F5 /* AboutController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AboutController.m; sourceTree = "<group>"; };
+		65725F501B1F5CE9008416F5 /* Pet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Pet.h; path = ../Pet.h; sourceTree = "<group>"; };
+		65725F511B1F5CE9008416F5 /* Pet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Pet.m; path = ../Pet.m; sourceTree = "<group>"; };
+		65725F5C1B1FDC92008416F5 /* CuteKitten.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = CuteKitten.jpg; sourceTree = "<group>"; };
+		65725F5D1B1FDC92008416F5 /* DancingCat.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = DancingCat.jpg; sourceTree = "<group>"; };
+		65725F5E1B1FDC92008416F5 /* FluffyKitten.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = FluffyKitten.jpg; sourceTree = "<group>"; };
+		65725F5F1B1FDC92008416F5 /* KittensInABasket.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = KittensInABasket.jpg; sourceTree = "<group>"; };
+		65725F601B1FDC92008416F5 /* RelaxedCat.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = RelaxedCat.jpg; sourceTree = "<group>"; };
+		65725F611B1FDC92008416F5 /* VeryYoungKitten.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = VeryYoungKitten.jpg; sourceTree = "<group>"; };
+		65725F681B1FDD10008416F5 /* Bo.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Bo.jpg; sourceTree = "<group>"; };
+		65725F691B1FDD10008416F5 /* BorderCollie.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = BorderCollie.jpg; sourceTree = "<group>"; };
+		65725F6A1B1FDD10008416F5 /* ItalianGreyhound.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = ItalianGreyhound.jpg; sourceTree = "<group>"; };
+		65725F6B1B1FDD10008416F5 /* JRT.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = JRT.jpg; sourceTree = "<group>"; };
+		65725F701B1FE10C008416F5 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		65725F721B1FE11C008416F5 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		65725F741B1FE12F008416F5 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		65725F761B1FE13C008416F5 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +84,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				65725F771B1FE13C008416F5 /* CoreGraphics.framework in Frameworks */,
+				65725F751B1FE12F008416F5 /* Foundation.framework in Frameworks */,
+				65725F731B1FE11C008416F5 /* UIKit.framework in Frameworks */,
+				65725F711B1FE10C008416F5 /* CoreData.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +104,11 @@
 		65725F141B1F5247008416F5 = {
 			isa = PBXGroup;
 			children = (
+				65725F761B1FE13C008416F5 /* CoreGraphics.framework */,
+				65725F741B1FE12F008416F5 /* Foundation.framework */,
+				65725F721B1FE11C008416F5 /* UIKit.framework */,
+				65725F701B1FE10C008416F5 /* CoreData.framework */,
+				65725F5B1B1FDC85008416F5 /* Assets */,
 				65725F1F1B1F5247008416F5 /* PetFind */,
 				65725F391B1F5247008416F5 /* PetFindTests */,
 				65725F1E1B1F5247008416F5 /* Products */,
@@ -81,13 +127,14 @@
 		65725F1F1B1F5247008416F5 /* PetFind */ = {
 			isa = PBXGroup;
 			children = (
+				65725F4C1B1F5791008416F5 /* Controllers */,
 				65725F241B1F5247008416F5 /* AppDelegate.h */,
 				65725F251B1F5247008416F5 /* AppDelegate.m */,
-				65725F271B1F5247008416F5 /* ViewController.h */,
-				65725F281B1F5247008416F5 /* ViewController.m */,
 				65725F2A1B1F5247008416F5 /* Main.storyboard */,
 				65725F2D1B1F5247008416F5 /* Images.xcassets */,
 				65725F2F1B1F5247008416F5 /* LaunchScreen.xib */,
+				65725F501B1F5CE9008416F5 /* Pet.h */,
+				65725F511B1F5CE9008416F5 /* Pet.m */,
 				65725F201B1F5247008416F5 /* Supporting Files */,
 			);
 			path = PetFind;
@@ -117,6 +164,37 @@
 				65725F3B1B1F5247008416F5 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		65725F4C1B1F5791008416F5 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				65725F461B1F5649008416F5 /* MasterViewController.h */,
+				65725F471B1F5649008416F5 /* MasterViewController.m */,
+				65725F491B1F5784008416F5 /* DetailViewController.h */,
+				65725F4A1B1F5784008416F5 /* DetailViewController.m */,
+				65725F4D1B1F57FD008416F5 /* AboutController.h */,
+				65725F4E1B1F57FD008416F5 /* AboutController.m */,
+			);
+			name = Controllers;
+			path = ..;
+			sourceTree = "<group>";
+		};
+		65725F5B1B1FDC85008416F5 /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				65725F5C1B1FDC92008416F5 /* CuteKitten.jpg */,
+				65725F5D1B1FDC92008416F5 /* DancingCat.jpg */,
+				65725F5E1B1FDC92008416F5 /* FluffyKitten.jpg */,
+				65725F5F1B1FDC92008416F5 /* KittensInABasket.jpg */,
+				65725F601B1FDC92008416F5 /* RelaxedCat.jpg */,
+				65725F611B1FDC92008416F5 /* VeryYoungKitten.jpg */,
+				65725F681B1FDD10008416F5 /* Bo.jpg */,
+				65725F691B1FDD10008416F5 /* BorderCollie.jpg */,
+				65725F6A1B1FDD10008416F5 /* ItalianGreyhound.jpg */,
+				65725F6B1B1FDD10008416F5 /* JRT.jpg */,
+			);
+			name = Assets;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -199,8 +277,18 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				65725F6C1B1FDD10008416F5 /* Bo.jpg in Resources */,
+				65725F651B1FDC92008416F5 /* KittensInABasket.jpg in Resources */,
 				65725F2C1B1F5247008416F5 /* Main.storyboard in Resources */,
+				65725F661B1FDC92008416F5 /* RelaxedCat.jpg in Resources */,
+				65725F621B1FDC92008416F5 /* CuteKitten.jpg in Resources */,
+				65725F641B1FDC92008416F5 /* FluffyKitten.jpg in Resources */,
+				65725F6E1B1FDD10008416F5 /* ItalianGreyhound.jpg in Resources */,
+				65725F6F1B1FDD10008416F5 /* JRT.jpg in Resources */,
 				65725F311B1F5247008416F5 /* LaunchScreen.xib in Resources */,
+				65725F6D1B1FDD10008416F5 /* BorderCollie.jpg in Resources */,
+				65725F671B1FDC92008416F5 /* VeryYoungKitten.jpg in Resources */,
+				65725F631B1FDC92008416F5 /* DancingCat.jpg in Resources */,
 				65725F2E1B1F5247008416F5 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -219,8 +307,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				65725F291B1F5247008416F5 /* ViewController.m in Sources */,
+				65725F4B1B1F5784008416F5 /* DetailViewController.m in Sources */,
+				65725F481B1F5649008416F5 /* MasterViewController.m in Sources */,
 				65725F261B1F5247008416F5 /* AppDelegate.m in Sources */,
+				65725F521B1F5CE9008416F5 /* Pet.m in Sources */,
+				65725F4F1B1F57FD008416F5 /* AboutController.m in Sources */,
 				65725F231B1F5247008416F5 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

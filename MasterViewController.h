@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  MasterViewController.h
 //  PetFind
 //
 //  Created by Daniel Kwiatkowski on 2015-06-03.
@@ -8,8 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
-
+@interface MasterViewController : UITableViewController
 
 @end
-
